@@ -46,6 +46,6 @@ jobs:
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: dapper-swan-77
+          project: "dapper-swan-77"
           entrypoint: 'index.js' # same as `out` option in config
           root: 'build' # if necessary
