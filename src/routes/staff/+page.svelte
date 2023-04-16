@@ -1,4 +1,6 @@
 <script lang="ts">
+    import Temp from "../Temp.svelte";
+
     let staff = [
         {
             name: "Faiq",
@@ -68,6 +70,7 @@
     ]
 </script>
 
+<Temp/>
 <div id="staff">
     <h1>Server Staff</h1>
     <div class="staffs">
