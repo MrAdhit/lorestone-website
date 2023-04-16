@@ -48,4 +48,4 @@ jobs:
         with:
           project: dapper-swan-77
           entrypoint: 'index.js' # same as `out` option in config
-          root: 'dist' # if necessary
+          root: 'build' # if necessary
