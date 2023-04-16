@@ -1,5 +1,5 @@
 <div id="nav">
-    <div class="logo"><img src="https://anonupload.tech/files/1681603239958_lorestone.png/view" alt=""></div>
+    <a href="/" class="logo"><img src="https://anonupload.tech/files/1681603239958_lorestone.png/view" alt=""></a>
     <div class="nav-items">
         <a href="/" class="nav-item">Home</a>
         <a href="/staff" class="nav-item">Staff</a>
