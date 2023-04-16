@@ -11,6 +11,8 @@
         width: 100vw;
         height: 100vh;
 
+        text-align: center;
+
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
