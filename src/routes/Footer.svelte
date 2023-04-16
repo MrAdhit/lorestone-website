@@ -15,7 +15,7 @@
         <div class="links">
             <span>Quick Links</span>
             <div class="link">
-                <a href="/" class="link-item">Store</a>
+                <a href="/store" class="link-item">Store</a>
                 <a href="/staff" class="link-item">Staff</a>
             </div>
         </div>
@@ -36,13 +36,15 @@
     }
 
     footer {
-        height: 25vh;
+        height: max-content;
         background-color: $brown-cold;
 
         padding-top: 8vh;
+        padding-bottom: 8vh;
 
         display: flex;
         justify-content: center;
+        align-items: center;
 
         .wrapper {
             display: flex;
@@ -51,6 +53,12 @@
 
             width: 70vw;
 
+            @media screen and (max-width: 768px) {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
             > .support, .links {
                 display: flex;
                 flex-direction: column;
@@ -58,6 +66,11 @@
                 > .link {
                     display: flex;
                     flex-direction: column;
+
+                    @media screen and (max-width: 768px) {
+                        align-items: center;
+                        margin-bottom: 30px;
+                    }
 
                     > .link-item {
                         margin-bottom: 5px;
@@ -92,6 +105,12 @@
                         aspect-ratio: 1;
                         font-size: 24px;
                     }
+                }
+
+                @media screen and (max-width: 768px) {
+                    order: 100;
+                    align-items: center;
+                    margin-top: 50px;
                 }
             }
         }
