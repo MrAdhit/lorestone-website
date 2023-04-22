@@ -47,6 +47,10 @@
             display: flex;
             gap: 20px;
 
+            > a {
+                padding: 10px;
+            }
+
             @media screen and (max-width: 600px) {
                 margin-left: 0;
 
