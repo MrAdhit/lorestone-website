@@ -291,6 +291,9 @@
 
             > .name {
                 font-size: 45px;
+                @media screen and (max-width: 480px) {
+                    margin-top: 20px;
+                }
             }
 
             > .items {
