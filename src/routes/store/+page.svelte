@@ -3,6 +3,7 @@
 
     import Popup from '../../lib/Popup.svelte';
     import { username } from './store';
+    import { goto } from '$app/navigation';
 
     const items = [
         {
@@ -90,7 +91,7 @@
     function addToCart() {
         if (!loggedIn) { previewPopup = false; loginPopup = true; return; };
 
-        location.href = "/store/cart";
+        goto("/store/cart");
     }
 </script>
 
@@ -238,7 +239,7 @@
             {:else}
             <div class="login" on:mousedown={(e) => { loginPopup = !loginPopup; }} style="--content: '{$username}'; --len: {len}px"></div>
             {/if}
-            <div class="cart" on:mousedown={(e) => { location.href = "/store/cart/" }}><Icon icon="ic:baseline-shopping-cart" /></div>
+            <a class="cart" href="/store/cart" ><Icon icon="ic:baseline-shopping-cart" /></a>
         </div>
     </div>
     <div class="items">
