@@ -27,7 +27,7 @@
 
         background-color: rgba($brown-rustic, $alpha: 0.5);
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 768px) {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -51,7 +51,7 @@
                 padding: 10px;
             }
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 768px) {
                 margin-left: 0;
 
                 > a {

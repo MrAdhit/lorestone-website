@@ -3,7 +3,7 @@
 </script>
 
 <div id="construction">
-    <h1><Icon icon="uiw:warning" style="color: orange"/> This page is under construction <Icon icon="uiw:warning" style="color: orange"/></h1>
+    <h1>This page is under construction</h1>
 </div>
 
 <style lang="scss">
@@ -16,5 +16,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
 </style>

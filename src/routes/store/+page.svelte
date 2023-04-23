@@ -270,9 +270,20 @@
         padding-left: 15vh;
         padding-right: 15vh;
 
+        @media screen and (max-width: 768px) {
+            padding-top: 20vh;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
         > .title {
             display: flex;
             justify-content: space-between;
+
+            @media screen and (max-width: 480px) {
+                flex-direction: column;
+                text-align: center;
+            }
 
             width: 100%;
 
@@ -290,6 +301,10 @@
                 height: 45px;
 
                 border-radius: 2px;
+
+                @media screen and (max-width: 480px) {
+                    order: -1;
+                }
 
                 > .login {
                     display: flex;
@@ -370,6 +385,10 @@
 
                 cursor: pointer;
                 user-select: none;
+
+                @media screen and (max-width: 600px) {
+                    width: 100%;
+                }
 
                 > .name {
                     color: $compliment;
