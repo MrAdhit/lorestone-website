@@ -385,7 +385,7 @@
                 }
 
                 &:hover {
-                    box-shadow: 0px 0px 30px 0px rgba($compliment, $alpha: 0.3);
+                    box-shadow: 0px 0px 30px 0px rgba($compliment, $alpha: 0.8);
                 }
 
                 &[data-important] {
@@ -395,17 +395,33 @@
                     overflow: hidden;
                     border: none;
 
+                    animation-name: glowing;
+                    animation-duration: 5s;
+                    animation-iteration-count: infinite;
+
                     &::before {
                         color: black;
                         font-weight: bold;
                         content: var(--important);
-                        margin-top: -52px;
+                        margin-top: -50px;
                         margin-bottom: 20px;
                         padding: 50px;
                         padding-top: 10px;
                         padding-bottom: 10px;
                         background-color: $compliment;
                         width: 110%;
+                    }
+
+                    @keyframes glowing {
+                        0% {
+                            box-shadow: 0px 0px 30px 0px rgba($compliment, $alpha: 0.3);
+                        }
+                        50% {
+                            box-shadow: 0px 0px 70px 0px rgba($compliment, $alpha: 0.8);
+                        }
+                        100% {
+                            box-shadow: 0px 0px 30px 0px rgba($compliment, $alpha: 0.3);
+                        }
                     }
                 }
             }
