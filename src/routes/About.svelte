@@ -23,7 +23,7 @@
         display: flex;
         align-items: center;
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 768px) {
             flex-direction: column;
             justify-content: center;
             align-items: start;
@@ -77,7 +77,7 @@
                 margin: 0;
             }
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 768px) {
                 order: -1;
                 align-self: center;
                 align-items: center;
@@ -86,9 +86,6 @@
                 margin-bottom: 40px;
                 width: 100vw;
                 border-bottom: solid 2px rgba($color: #FFF, $alpha: 0.2);
-
-                // background: rgb(228,205,152);
-                // background: linear-gradient(124deg, rgba(228,205,152,0.2) 0%, rgba(233,194,73,0.2) 100%);
 
                 border-bottom-style: solid;
                 border-width: 5px;
