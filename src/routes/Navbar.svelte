@@ -18,7 +18,6 @@
         top: 0;
         left: 0;
 
-        // width: 90vw;
         width: 100%;
 
         padding: 20px;

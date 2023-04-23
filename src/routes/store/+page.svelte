@@ -124,6 +124,7 @@
                 margin-top: 0;
                 margin-bottom: 25px;
                 font-size: 20px;
+                text-align: center;
             }
 
             > input {
@@ -272,7 +273,7 @@
         padding-right: 15vh;
 
         @media screen and (max-width: 768px) {
-            padding-top: 20vh;
+            padding-top: 180px;
             padding-left: 10px;
             padding-right: 10px;
         }
