@@ -32,7 +32,7 @@
     @import "var";
 
     a {
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     footer {
