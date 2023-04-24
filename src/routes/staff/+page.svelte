@@ -70,6 +70,10 @@
     ]
 </script>
 
+<svelte:head>
+    <title>Lorestone | Staff</title> 
+</svelte:head>
+
 <Temp/>
 <div id="staff">
     <h1>Server Staff</h1>

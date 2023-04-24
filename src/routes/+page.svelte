@@ -2,6 +2,10 @@
     import About from "./About.svelte";
 </script>
 
+<svelte:head>
+    <title>Lorestone | Home</title> 
+</svelte:head>
+
 <main>
     <h1><strong>Lorestone</strong></h1>
     <span>Unleash your creativity and join the adventure!</span>

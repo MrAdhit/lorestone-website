@@ -95,6 +95,10 @@
     }
 </script>
 
+<svelte:head>
+    <title>Lorestone | Store</title> 
+</svelte:head>
+
 <Popup bind:show={loginPopup}>
     <div class="pop">
         <h5>Login with your username</h5>
